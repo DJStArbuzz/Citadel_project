@@ -23,7 +23,9 @@ public class Configuration
             
             return defaultConfig;
         }
+
         string content = File.ReadAllText(path);
+
         return JsonSerializer.Deserialize<Configuration>(content) ?? new Configuration();
     }
 }

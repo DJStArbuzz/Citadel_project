@@ -65,7 +65,12 @@ public partial class CpuCollector
             private CpuStats ParseLine(string line)
             {
                 var parts = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                if (parts.Length < 8) return new CpuStats();
+                
+                if (parts.Length < 8)
+                {
+                    return new CpuStats();
+                }
+
                 return new CpuStats
                 {
                     User = long.Parse(parts[1]),

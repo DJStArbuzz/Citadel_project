@@ -14,7 +14,10 @@ public partial class MemoryCollector
         {
             string memInfo = File.ReadAllText("/proc/meminfo");
             var lines = memInfo.Split('\n');
-            long totalKB = 0, availableKB = 0;
+
+            long totalKB = 0;
+            long availableKB = 0;
+            
             foreach (var line in lines)
             {
                 if (line.StartsWith("MemTotal:"))
