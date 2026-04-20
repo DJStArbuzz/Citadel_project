@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sobes3", "sobes3\sobes3.csproj", "{066061BC-0AA3-4C49-A3EE-63F7B387AFF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{066061BC-0AA3-4C49-A3EE-63F7B387AFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066061BC-0AA3-4C49-A3EE-63F7B387AFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066061BC-0AA3-4C49-A3EE-63F7B387AFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066061BC-0AA3-4C49-A3EE-63F7B387AFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {404B09D2-A8BC-4A38-B674-45904EC6419D}
+	EndGlobalSection
+EndGlobal
