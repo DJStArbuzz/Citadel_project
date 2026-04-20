@@ -41,6 +41,17 @@ CPU:
 
 Поддерживаются Windows и Linux (включая WSL). Все метрики собираются в реальном времени, выводятся в консоль или файл согласно настройкам `config.json`.
 
+## Пример содержимого **config.json**
+
+```json
+  "period_seconds": 2,
+  "output_mode": "Console",
+  "log_file_path": "metrics.log"
+```
+- period_seconds - Периодичность вывода (сек)
+- output_mode - Куда выводить данные (File или Console)
+- log_file_path - Путь к лог-файлу
+
 ### Основные возможности
 
 - **CPU** – общая загрузка и загрузка по каждому ядру (через `PerformanceCounter` на Windows, `/proc/stat` на Linux).
